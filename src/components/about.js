@@ -1,17 +1,20 @@
 import React, { Component } from 'react';
-
+import { NavLink} from 'react-router-dom'
 
 const About=()=>{
 return (
-  <div>
+  <div className="text-right">
 
       <section style={{
-     backgroundColor: '#2274A5',
+     backgroundColor: '#B33951',
      paddingTop : 8,
-     paddingBottom :8
+     paddingBottom :8,
+
+    paddingLeft : 8
       
     }}>
-  <img width="150" src="portfolio.svg" alt="description dfffof "/>
+    <NavLink to="/"> <img width="25" src="house.svg" alt="description dfffof "/>  </NavLink>
+  
   </section>
 
       

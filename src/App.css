@@ -37,7 +37,7 @@
 .fade-appear-active,
 .fade-enter.fade-enter-active {
     opacity: 1;
-    transition: opacity 300ms linear 150ms;
+    transition: all 750ms ease-out;
 }
 
 .fade-exit {
@@ -46,7 +46,7 @@
 
 .fade-exit.fade-exit-active {
     opacity: 0;
-    transition: opacity 150ms linear;
+    transition: all 750ms ease-out;
 }
 
 @keyframes App-logo-spin {

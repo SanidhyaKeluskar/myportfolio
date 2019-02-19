@@ -22,7 +22,7 @@ key={location.key}
           timeout={500}
           classNames="fade"
         >
-<Switch>
+<Switch location={location}>
 <Route path="/" component={Home} exact/>
   <Route path="/about" component={About}/>
 </Switch>
