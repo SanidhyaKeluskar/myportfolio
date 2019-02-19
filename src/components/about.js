@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { NavLink} from 'react-router-dom'
+import { NavLink} from 'react-router-dom';
+import {Grid, cell}  from 'react-mdl';
 
 const About=()=>{
 return (
@@ -15,6 +16,16 @@ return (
     }}>
     <NavLink to="/"> <img width="25" src="house.svg" alt="description dfffof "/>  </NavLink>
   
+  </section>
+    <Grid className="about-grid">
+        <cell col={12}>
+
+        <img  width="250" src="me.jpg" alt="description dfffof " className="avatar-img"/>
+
+        </cell>
+    </Grid>
+  <section>
+
   </section>
 
       
