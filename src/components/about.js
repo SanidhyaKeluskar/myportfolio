@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { NavLink} from 'react-router-dom';
-import {Grid, Cell}  from 'react-mdl';
+
 
 const About=()=>{
 return (
@@ -43,7 +43,7 @@ return (
 <img width="40" src="aws.svg" alt="description dfffof "/> 
 </div>
 
-<div style={{
+<div className = "letter" style={{
      paddingTop : 8,
      paddingBottom :8,
 
@@ -53,7 +53,6 @@ return (
 
     <p style={{
      alignContent: 'center',
-     border: '1 solid #FFFFFF',
      color : '#FFFFFF'
     }}> "Self-directed, highly motivated Computer Science graduate with ability to think creatively to solve technology related problems. Strong understanding of algorithms, Data Structures & Object oriented design. Passionate in designing and crafting efficient modern softwares, and learning new technologies and tools if need arises"</p>
 

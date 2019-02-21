@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import { NavLink} from 'react-router-dom'
+import React from 'react';
+import { NavLink} from 'react-router-dom';
 
 const Home=()=>{
 return (
@@ -22,7 +22,8 @@ return (
      paddingBottom :8
       
     }}>
-  <img width="150" src="portfolio.svg" alt="description dfffof "/>
+    <NavLink to="/experience"> <img width="150" src="portfolio.svg" alt="description dfffof "/> </NavLink>
+  
   </section>
 
   <section style={{
