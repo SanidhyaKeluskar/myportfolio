@@ -35,25 +35,29 @@ Worked in scrum environment and helped company publish App on Google Play Store.
         </Grid>
                     
                     
-    <Grid className="demo-grid-1">
-        <Cell col={4}><img width="200px" src="bankey1.png" alt="description dfffof "/> </Cell>
-        <Cell col={4}><img width="200px" src="bankey 2.png" alt="description dfffof "/></Cell>
-        <Cell col={4}><img width="200px" src="bankey3.png" alt="description dfffof "/></Cell>
+    <Grid className="grid-to-show-work">
+        <Cell col={4} className="grid-to-show-work"><img width="200px" src="bankey1.png" alt="description dfffof "/> </Cell>
+        <Cell col={4} className="grid-to-show-work"><img width="200px" src="bankey 2.png" alt="description dfffof "/></Cell>
+        <Cell col={4}className="grid-to-show-work"><img width="200px" src="bankey3.png" alt="description dfffof "/></Cell>
     </Grid>
 
-    <h2>
+    <Grid className="demo-grid-1">
+        <Cell col={12}>
+        <p style={{color : '#FFFFFF', fontSize:'25px', paddingLeft : 8}}>
         Testimonial
-    </h2>
-    <p>
+    </p>
+    <p style={{color : '#FFFFFF', fontSize:'18px', paddingLeft : 8}}>
     "Sanidhya is great talent who is passionate about emerging technology and software development. I worked with him for 3 months. He is a true team player and he makes sure that tasks are delivered on time. Sanidhya is a valuable resource that you should keep in your team"<br></br>
  -Moataz Alobaid(Founder of Bankey LLC)
     </p>
+        </Cell>
+    </Grid>
                 </div>
             )
         }
         else if(this.state.activeTab === 1){
             return(
-                <div>
+                <div style={{minHeight: '100vh'}}>
                 
                 <Grid className="demo-grid-1">
         <Cell col={6}><p style={{color : '#FFFFFF', fontSize:'25px', paddingLeft : 8}}>Trivia Software Pvt LTD (1st Jan 2016- 30th June 2016)</p>
