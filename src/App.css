@@ -88,12 +88,42 @@
   text-align: center;
   
 }
+
+.grid-contact {
+  min-height: 100px;
+  line-height: 90px;
+  text-align: center;
+
+  
+}
+
+.grid-contact p{
+  font-family: Pacifico;
+  display: flex;
+	flex-direction: column;
+ 
+  vertical-align: middle;
+  font-size: 20px;
+}
+
+.grid-contact i{
+  color: black;
+  font-size: 5em;
+}
+
 .about-grid{
   text-align: center;
+
+}
+.about-grid i{
+  color:  whitesmoke;
+  font-size: 3em;
 }
 
 .footer-styling{
-  text-align: right;
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 .technologies-known{
   display: flex;
@@ -105,6 +135,16 @@
 }
 .card-grid{
   display: flex;
+}
+
+.header-for-all i{
+  color:  white;
+  font-size: 1.5em;
+}
+
+.header-black i{
+  color:  black;
+  font-size: 1.5em;
 }
 @keyframes App-logo-spin {
   from {

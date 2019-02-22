@@ -96,17 +96,18 @@ Contributed in group discussions/meetings for valuable changes, resolved defects
                 backgroundColor: '#2274A5',
                  
                }}>
-                <section style={{
-    
+                <div className="header-for-all" style={{
+     backgroundColor: '#2274A5',
      paddingTop : 8,
      paddingBottom :8,
 
     paddingLeft : 8
       
     }}>
-    <NavLink to="/"> <img width="25" src="house.svg" alt="description dfffof "/>  </NavLink>
+    <NavLink to="/"> <i class="fas fa-home" aria-hidden="true"/>  </NavLink>
+    
   
-  </section>
+  </div>
                 <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
                     <Tab style={
                         {

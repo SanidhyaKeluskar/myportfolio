@@ -8,11 +8,12 @@ import Footer from './footer';
 const About=()=>{
 return (
   <div className="text-right" style={{
-    backgroundColor: '#B33951',
-     
+    backgroundColor: '#B33951',     
    }}>
 
-      <section style={{
+   
+
+      <div className="header-for-all" style={{
      backgroundColor: '#B33951',
      paddingTop : 8,
      paddingBottom :8,
@@ -20,9 +21,11 @@ return (
     paddingLeft : 8
       
     }}>
-    <NavLink to="/"> <img width="25" src="house.svg" alt="description dfffof "/>  </NavLink>
+    <NavLink to="/"> <i class="fas fa-home" aria-hidden="true"/>  </NavLink>
+    
   
-  </section>
+  </div>
+  
 
  <Grid className="about-grid">
         <Cell col={6}><img style={{ paddingRight :8, paddingBottom :8}} width="250" src="me.jpg" alt="description dfffof " className="avatar-img"/></Cell>
@@ -40,10 +43,10 @@ return (
         <Cell col={1}><img width="40" src="ios.svg" alt="description dfffof "/></Cell>
         <Cell col={1}><img width="40" src="mysql.svg" alt="description dfffof "/></Cell>
         <Cell col={1}><img width="40" src="mongo.svg" alt="description dfffof "/></Cell>
-        <Cell col={1}><img width="40" src="nodejs.svg" alt="description dfffof "/></Cell>
+        <Cell col={1}><i class="fab fa-node"/></Cell>
         <Cell col={1}><img width="40" src="spring.svg" alt="description dfffof "/> </Cell>
         <Cell col={1}><img width="40" src="docker.svg" alt="description dfffof "/> </Cell>
-        <Cell col={1}><img width="40" src="aws.svg" alt="description dfffof "/> </Cell>
+        <Cell col={1}><i class="fab fa-aws"/> </Cell>
         <Cell col={1}><img width="40" src="git.svg" alt="description dfffof "/> </Cell>
     </Grid>
 
@@ -53,6 +56,7 @@ return (
         </Cell>
         <Cell col={6}><p style={{color : '#FFFFFF', fontSize : 20}}> Problem solver with strong understanding of algorithms, Data Structures & Object oriented design . Proficient with java, javascript and SQL. Experience with building backend server using Spring boot & Nodejs and deploying on AWS, Heroku. Experience with frontend technologies like Reactjs, HTML,CSS. Comfortable developing mobile app both on IOS & android platform. I am good at troubleshooting and debugging</p></Cell>
     </Grid>
+    
 
     <Footer />
 

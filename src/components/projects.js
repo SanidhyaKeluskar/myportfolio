@@ -10,17 +10,18 @@ class Projects extends Component{
                 backgroundColor: '#E9F1F7',
                  
                }}>
-                <section style={{
-    
-    paddingTop : 8,
-    paddingBottom :8,
+                <div className="header-black" style={{
+     backgroundColor: '#E9F1F7',
+     paddingTop : 8,
+     paddingBottom :8,
 
-   paddingLeft : 8
-     
-   }}>
-   <NavLink to="/"> <img width="25" src="house.svg" alt="description dfffof "/>  </NavLink>
- 
-            </section>
+    paddingLeft : 8
+      
+    }}>
+    <NavLink to="/"> <i class="fas fa-home" aria-hidden="true"/>  </NavLink>
+    
+  
+  </div>
             
 
             <Grid className="demo-grid-1">

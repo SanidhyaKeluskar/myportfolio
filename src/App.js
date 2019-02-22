@@ -5,10 +5,12 @@ import Home from './components/home';
 import About from './components/about';
 import Experience from './components/experience';
 import Projects from './components/projects';
+import Contact from './components/contact';
 import {
   CSSTransition,
   TransitionGroup,
 } from 'react-transition-group';
+
 
 
 
@@ -19,20 +21,20 @@ class App extends Component {
       <Route render={({location})=>(
 
 <TransitionGroup>
-<CSSTransition
+        <CSSTransition
 
-key={location.key}
-  
-          timeout={500}
-          classNames="fade"
-        >
-<Switch location={location}>
-<Route path="/" component={Home} exact/>
-  <Route path="/about" component={About}/>
-  <Route path="/experience" component={Experience}/>
-  <Route path="/projects" component={Projects}/>
-</Switch>
-</CSSTransition>
+        key={location.key}
+                  timeout={500}
+                  classNames="fade"
+                >
+        <Switch location={location}>
+          <Route path="/" component={Home} exact/>
+          <Route path="/about" component={About}/>
+          <Route path="/experience" component={Experience}/>
+          <Route path="/projects" component={Projects}/>
+          <Route path="/contact" component={Contact}/>
+        </Switch>
+        </CSSTransition>
 </TransitionGroup>
 
       )}/>

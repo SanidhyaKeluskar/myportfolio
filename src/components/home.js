@@ -42,7 +42,8 @@ return (
      paddingBottom :8
       
     }}>
-  <img width="150" src="letter.svg" alt="description of rrimage"/>
+    <NavLink to="/contact"> <img width="150" src="letter.svg" alt="description dfffof "/></NavLink>
+
   </section>
 </div>
 );
