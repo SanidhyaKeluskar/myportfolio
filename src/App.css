@@ -85,7 +85,11 @@
   
 }
 .grid-to-show-work{
-  justify-content: center;
+  text-align: center;
+  
+}
+.about-grid{
+  text-align: center;
 }
 .technologies-known{
   display: flex;
