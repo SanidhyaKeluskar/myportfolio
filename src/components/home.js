@@ -6,7 +6,7 @@ return (
   <div className="App">
         
       
-  <section style={{
+  <section className="home-styling" style={{
      backgroundColor: '#B33951',
      paddingTop : 8,
      paddingBottom :8
@@ -32,7 +32,7 @@ return (
      paddingBottom :8
       
     }}>
-  <img width="150" src="project-management.svg" alt="description ofgggg "/>
+  <NavLink to="/projects"> <img width="150" src="project-management.svg" alt="description dfffof "/></NavLink>
   
   </section>
 

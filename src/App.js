@@ -4,10 +4,12 @@ import {BrowserRouter, Route , Switch} from 'react-router-dom';
 import Home from './components/home';
 import About from './components/about';
 import Experience from './components/experience';
+import Projects from './components/projects';
 import {
   CSSTransition,
   TransitionGroup,
 } from 'react-transition-group';
+
 
 
 class App extends Component {
@@ -28,6 +30,7 @@ key={location.key}
 <Route path="/" component={Home} exact/>
   <Route path="/about" component={About}/>
   <Route path="/experience" component={Experience}/>
+  <Route path="/projects" component={Projects}/>
 </Switch>
 </CSSTransition>
 </TransitionGroup>
