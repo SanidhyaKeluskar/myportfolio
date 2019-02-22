@@ -1,6 +1,8 @@
 import React from 'react';
 import { NavLink} from 'react-router-dom';
 import { Grid, Cell} from 'react-mdl';
+import Footer from './footer';
+
 
 
 const About=()=>{
@@ -52,7 +54,7 @@ return (
         <Cell col={6}><p style={{color : '#FFFFFF', fontSize : 20}}> Problem solver with strong understanding of algorithms, Data Structures & Object oriented design . Proficient with java, javascript and SQL. Experience with building backend server using Spring boot & Nodejs and deploying on AWS, Heroku. Experience with frontend technologies like Reactjs, HTML,CSS. Comfortable developing mobile app both on IOS & android platform. I am good at troubleshooting and debugging</p></Cell>
     </Grid>
 
-
+    <Footer />
 
     
 

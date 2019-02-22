@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import { NavLink} from 'react-router-dom';
+import Footer from './footer';
 import { Grid, Cell, Card, CardText, CardTitle, CardActions, Button} from 'react-mdl';
 
 class Projects extends Component{
@@ -270,7 +271,7 @@ Implemented Scoreboard for score at the end of Quiz <br></br>Also implemented a 
                 </Cell>
             </Grid>
 
-
+            <Footer />
             </div>
         )
     }

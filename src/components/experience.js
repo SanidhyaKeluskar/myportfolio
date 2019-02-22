@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import { NavLink} from 'react-router-dom';
 import { Tabs, Tab, Grid, Cell} from 'react-mdl';
+import Footer from './footer';
 
 class Experience extends Component{
 
@@ -52,6 +53,8 @@ Worked in scrum environment and helped company publish App on Google Play Store.
     </p>
         </Cell>
     </Grid>
+
+    <Footer />
                 </div>
             )
         }
@@ -78,7 +81,7 @@ Contributed in group discussions/meetings for valuable changes, resolved defects
         
         </Grid>
                 
-                              
+        
                     
                 </div>
             )
@@ -117,6 +120,7 @@ Contributed in group discussions/meetings for valuable changes, resolved defects
                     {this.selectcompany()}
                 </section>
 
+    
     </div>
         )
 

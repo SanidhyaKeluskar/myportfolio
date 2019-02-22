@@ -91,6 +91,10 @@
 .about-grid{
   text-align: center;
 }
+
+.footer-styling{
+  text-align: right;
+}
 .technologies-known{
   display: flex;
   
