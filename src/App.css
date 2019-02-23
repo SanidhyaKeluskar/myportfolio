@@ -120,6 +120,22 @@
   font-size: 3em;
 }
 
+.home-styling{
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.home-styling i{
+  text-align: center;
+  color:  whitesmoke;
+  font-size: 10em;
+}
+.home-styling-three i{
+  text-align: center;
+  color:  black;
+  font-size: 10em;
+}
+
+
 .footer-styling{
   text-align: center;
   padding-top: 8px;
