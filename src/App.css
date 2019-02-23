@@ -124,15 +124,51 @@
   padding-top: 8px;
   padding-bottom: 8px;
 }
+.home-styling p{
+  display: flex;
+  font-size: 30px;
+  padding-top: 17px;
+  color:  whitesmoke;
+  justify-content: center;
+  align-items: center;
+}
 .home-styling i{
   text-align: center;
   color:  whitesmoke;
-  font-size: 10em;
+  padding-right: 8px;
+  font-size: 4em;
+}
+
+.home-styling-three p{
+  display: flex;
+  font-size: 30px;
+  padding-top: 17px;
+  color:  black;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px
 }
 .home-styling-three i{
   text-align: center;
   color:  black;
-  font-size: 10em;
+  padding-right: 8px;
+  font-size: 4em;
+}
+
+.home-styling-four p{
+  display: flex;
+  font-size: 30px;
+  padding-top: 17px;
+  color:  black;
+  justify-content: center;
+  align-items: center;
+
+}
+.home-styling-four i{
+  text-align: center;
+  color:  black;
+  padding-right: 8px;
+  font-size: 4em;
 }
 
 
