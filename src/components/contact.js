@@ -11,17 +11,17 @@ class Contact extends Component{
             <div style={{backgroundColor: '#D0DB97', 
             minHeight: '100vh' }} >
                 <div className="header-black" style={{
-     backgroundColor: '#D0DB97',
-     paddingTop : 8,
-     paddingBottom :8,
+                    backgroundColor: '#D0DB97',
+                    paddingTop : 8,
+                    paddingBottom :8,
 
-    paddingLeft : 8
-      
-    }}>
-    <NavLink to="/"> <i class="fas fa-home" aria-hidden="true"/>  </NavLink>
-    
-  
-  </div>
+                    paddingLeft : 8
+                    
+                    }}>
+                    <NavLink to="/"> <i class="fas fa-home" aria-hidden="true"/>  </NavLink>
+                    
+                
+                </div>
                 <div style={{minHeight: '95vh'}}>
                 <Grid className="grid-contact">
                     <Cell col={12}>
@@ -31,7 +31,7 @@ class Contact extends Component{
 
                 <Grid className="grid-contact">
                     
-                    <Cell col={6}>
+                    <Cell col={6} >
                         <p>Sanidhya Keluskar</p>
                         <p>2301 E Street Northwest Washington DC</p>
                         <p>svkeluskar@gwu.edu</p>
@@ -39,7 +39,7 @@ class Contact extends Component{
                         <p>+1(301)535-8733</p>
                         <img width="150" src="barcode.svg" alt="description dfffof "/>
                     </Cell>
-                    <Cell col={6}>
+                    <Cell col={6} className="grid-custom" >
                     <Grid >
                     <Cell col={4}>
                     <a href="https://github.com/SanidhyaKeluskar" rel="noopener noreferrer" target="_blank">
