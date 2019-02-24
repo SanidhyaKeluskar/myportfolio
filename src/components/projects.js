@@ -128,7 +128,7 @@ class Projects extends Component{
                     </CardText>
                     
                     <CardActions border>
-                    <a href="https://github.com/SanidhyaKeluskar/Spring-Server" rel="noopener noreferrer" target="_blank">
+                    <a href="https://github.com/SanidhyaKeluskar/metrofinder" rel="noopener noreferrer" target="_blank">
                     <Button colored style={{alignContent: 'center'} } >GitHub</Button>
                     </a>
                         
@@ -153,7 +153,7 @@ class Projects extends Component{
                     </CardText>
                     
                     <CardActions border>
-                    <a href="https://github.com/SanidhyaKeluskar/NodeWatson" rel="noopener noreferrer" target="_blank">
+                    <a href="https://github.com/SanidhyaKeluskar/petify" rel="noopener noreferrer" target="_blank">
                     <Button colored style={{alignContent: 'center'} } >GitHub</Button>
                     </a>
                         

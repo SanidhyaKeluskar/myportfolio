@@ -16,13 +16,13 @@ class Experience extends Component{
                 <div>
 
                     <Grid className="demo-grid-1">
-        <Cell col={6}><p style={{color : '#FFFFFF', fontSize:'25px', paddingLeft : 8}}>Bankey LLC (1st June 2018 - 31st August 2018)</p>
-        <p style={{color : '#FFFFFF', fontSize:'18px', paddingLeft : 8}}>Software Engineering Intern</p>
+        <Cell col={6}><p style={{color : '#FFFFFF', fontSize:'25px', paddingLeft : 8,fontFamily: 'ZCOOL QingKe HuangYou'}}>Bankey LLC (1st June 2018 - 31st August 2018)</p>
+        <p style={{color : '#FFFFFF', fontSize:'22px', paddingLeft : 8,fontFamily: 'ZCOOL QingKe HuangYou'}}>Software Engineering Intern</p>
         <img width="200px" src="washingdc.png" alt="description dfffof " className="avatar2-img"/>
         
         </Cell>
         <Cell col={6}>
-        <p style={{color : '#FFFFFF', fontSize:'18px', paddingLeft : 8}}>
+        <p style={{color : '#FFFFFF', fontSize:'19px', paddingLeft : 8,fontFamily: 'Dosis', lineHeight:1.5}}>
                     Participated in complete Software Development Life Cycle (SDLC) of Bankey's Android Application for proper analysis, development, testing, deployment and enhancement of code. <br></br>
 Responsible for development of fragments & modules for send money & receive money flow.<br></br>
 Implemented find nearest key (Bankey's ATM entity) functionality which expedited 'request Money from Key' process by 30%.<br></br>
@@ -36,7 +36,7 @@ Worked in scrum environment and helped company publish App on Google Play Store.
         </Grid>
 
     <div className="backgroud-of-show-work">
-        <p style={{color : '#253031', fontSize:'25px', textAlign : 'center', paddingTop : '10px'}}>
+        <p style={{color : '#253031', fontSize:'25px', textAlign : 'center', paddingTop : '10px',fontFamily: 'ZCOOL QingKe HuangYou'}}>
             Snapshots of my work at Bankey
         </p>
         <Grid className="grid-to-show-work">
@@ -51,10 +51,10 @@ Worked in scrum environment and helped company publish App on Google Play Store.
 
     <Grid className="demo-grid-1">
         <Cell col={12}>
-        <p style={{color : '#FFFFFF', fontSize:'25px', paddingLeft : 8}}>
+        <p style={{color : '#FFFFFF', fontSize:'25px', paddingLeft : 8, fontFamily: 'ZCOOL QingKe HuangYou'}}>
         Testimonial
     </p>
-    <p style={{color : '#FFFFFF', fontSize:'18px', paddingLeft : 8}}>
+    <p style={{color : '#FFFFFF', fontSize:'19px', paddingLeft : 8,fontFamily: 'Dosis', lineHeight:1.5}}>
     "Sanidhya is great talent who is passionate about emerging technology and software development. I worked with him for 3 months. He is a true team player and he makes sure that tasks are delivered on time. Sanidhya is a valuable resource that you should keep in your team"<br></br>
  -Moataz Alobaid(Founder of Bankey LLC)
     </p>
@@ -70,13 +70,13 @@ Worked in scrum environment and helped company publish App on Google Play Store.
                 <div style={{minHeight: '100vh'}}>
                 
                 <Grid className="demo-grid-1">
-        <Cell col={6}><p style={{color : '#FFFFFF', fontSize:'25px', paddingLeft : 8}}>Trivia Software Pvt LTD (1st Jan 2016- 30th June 2016)</p>
-        <p style={{color : '#FFFFFF', fontSize:'18px', paddingLeft : 8}}>Software Engineering Intern</p>
+        <Cell col={6}><p style={{color : '#FFFFFF', fontSize:'25px', paddingLeft : 8, fontFamily: 'ZCOOL QingKe HuangYou'}}>Trivia Software Pvt LTD (1st Jan 2016- 30th June 2016)</p>
+        <p style={{color : '#FFFFFF', fontSize:'22px', paddingLeft : 8,fontFamily: 'ZCOOL QingKe HuangYou'}}>Software Engineering Intern</p>
         <img width="200px" src="mumbai.png" alt="description dfffof " className="avatar2-img"/>
         
         </Cell>
         <Cell col={6}>
-        <p style={{color : '#FFFFFF', fontSize:'18px', paddingLeft : 8}}>
+        <p style={{color : '#FFFFFF', fontSize:'19px', paddingLeft : 8,fontFamily: 'Dosis', lineHeight:1.5}}>
 Worked on a desktop application. Performed automation by writing SQL trigger which reduced client's data entry task by 70%.<br></br>
 Designed & deployed complex SQL queries for creation of new Reports. Modified stored procedures as per client's requirement.<br></br>
 Performed unit and Regression testing with production data and match existing manual system.<br></br>

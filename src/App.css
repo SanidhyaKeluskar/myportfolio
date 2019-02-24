@@ -104,14 +104,20 @@
 }
 
 .grid-contact p{
-  font-family: Pacifico;
-  font-size: 20px;
+  font-family: Fredoka One;
+  font-size: 22px;
 }
 
 .grid-contact i{
   color: black;
   font-size: 5em;
   
+}
+
+.grid-contact-header p{
+  text-align: center;
+  font-family: Fredoka One;
+  font-size: 30px;
 }
 
 .grid-custom{

@@ -23,7 +23,7 @@ class Contact extends Component{
                 
                 </div>
                 <div style={{minHeight: '95vh'}}>
-                <Grid className="grid-contact">
+                <Grid className="grid-contact-header">
                     <Cell col={12}>
                         <p>Contact me</p>
                     </Cell>
