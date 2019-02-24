@@ -28,7 +28,7 @@ return (
   
 
  <Grid className="about-grid">
-        <Cell col={6}><img style={{ paddingRight :8, paddingBottom :8}} width="250" src="me.jpg" alt="description dfffof " className="avatar-img"/></Cell>
+        <Cell col={6}><img style={{ paddingRight :8, paddingBottom :8}} width="225" src="me.jpg" alt="description dfffof " className="avatar-img"/></Cell>
         <Cell col={6}><h1 style={{ color : '#FFFFFF', fontSize : 35}} >Hi, i am Sanidhya Keluskar</h1> 
         <p style={{ color : '#FFFFFF', fontSize : 25}} >Graduate CS student at <img width="80" src="GWU.svg" alt="description dfffof "/> </p>
         <p style={{ color : '#FFFFFF', fontSize : 25}} >Full Stack Software Developer</p></Cell>

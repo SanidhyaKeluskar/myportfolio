@@ -89,6 +89,13 @@
   
 }
 
+.backgroud-of-show-work{
+  background-color: white;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+}
+
 .grid-contact {
   min-height: 100px;
   line-height: 90px;
@@ -109,6 +116,7 @@
 .grid-contact i{
   color: black;
   font-size: 5em;
+  
 }
 
 .about-grid{

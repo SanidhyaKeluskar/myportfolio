@@ -34,13 +34,20 @@ Worked in scrum environment and helped company publish App on Google Play Store.
         </Cell>
         
         </Grid>
-                    
-                    
-    <Grid className="grid-to-show-work">
+
+    <div className="backgroud-of-show-work">
+        <p style={{color : '#253031', fontSize:'25px', textAlign : 'center', paddingTop : '10px'}}>
+            Snapshots of my work at Bankey
+        </p>
+        <Grid className="grid-to-show-work">
         <Cell col={4} className="grid-to-show-work"><img width="200px" src="bankey1.png" alt="description dfffof "/> </Cell>
         <Cell col={4} className="grid-to-show-work"><img width="200px" src="bankey 2.png" alt="description dfffof "/></Cell>
         <Cell col={4}className="grid-to-show-work"><img width="200px" src="bankey3.png" alt="description dfffof "/></Cell>
     </Grid>
+        
+    </div>    
+                    
+    
 
     <Grid className="demo-grid-1">
         <Cell col={12}>
