@@ -51,7 +51,11 @@ class Contact extends Component{
                     <i class="fab fa-linkedin"/>
                     </a>
                     </Cell>
-                    <Cell col={4}><i class="fas fa-envelope-square"/></Cell>
+                    <Cell col={4}>
+                    <a href="mailto: svkeluskar@gwu.edu" rel="noopener noreferrer" target="_top">
+                    <i className="fa fa-envelope" aria-hidden="true"></i>
+                    </a>
+                    </Cell>
                 </Grid>
                     
                     </Cell>

@@ -63,7 +63,11 @@ return (
         I am skilled at Frontend development, mobile development and backend development. 
         Frameworks like React, Redux, Bootstrap, Nodejs, ExpressJs, Spring Boot, Android & IOS are under my belt. 
         I have experience with unit testing. I also believe i am good at debugging & troubleshooting.
-        </p></Cell>
+        </p>
+        <p style={{color : '#FFFFFF', fontSize : 22,fontFamily: 'Dosis'}}>Here is my <a style={{color : '#FFFF00', fontSize : 25,fontFamily: 'Dosis'}} href="https://drive.google.com/file/d/1D6eaoMioq7PDLMYIdgsgXsuGNXCs1eLu/view?usp=sharing" rel="noopener noreferrer" target="_blank">
+                    RESUME
+                    </a> </p>
+        </Cell>
     </Grid>
     
     </div>
