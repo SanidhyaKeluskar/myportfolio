@@ -8,7 +8,8 @@ import Footer from './footer';
 const About=()=>{
 return (
   <div className="text-right" style={{
-    backgroundColor: '#B33951',     
+    backgroundColor: '#B33951',  
+   
    }}>
 
    
@@ -26,7 +27,10 @@ return (
   
   </div>
   
-
+<div style={{
+        minHeight: '90vh' ,
+      
+        }}>
  <Grid className="about-grid">
         <Cell col={6}><img style={{ paddingRight :8, paddingBottom :8}} width="225" src="me.jpg" alt="description dfffof " className="avatar-img"/></Cell>
         <Cell col={6}><h1 style={{ color : '#FFFFFF', fontSize : 35}} >Hi, i am Sanidhya Keluskar</h1> 
@@ -52,16 +56,21 @@ return (
 
     <Grid className="demo-grid-1">
         <Cell col={6}>
-        <p style={{color : '#FFFFFF', fontSize : 22, fontFamily: 'Dosis', lineHeight:1.5}}> Self-directed, highly motivated Computer Science graduate with ability to think creatively to solve technology related problems. Strong understanding of algorithms, Data Structures & Object oriented design. Passionate in designing and crafting efficient modern softwares, and learning new technologies and tools if need arises</p>
+        <p style={{color : '#FFFFFF', fontSize : 22, fontFamily: 'Dosis', lineHeight:1.5}}> I am a self-directed, highly motivated Computer Science graduate with ability to think creatively to solve technology related problems. I believe i have strong understanding of algorithms, Data Structures & Object oriented design. I am Passionate about designing and crafting efficient modern softwares, and learning new technologies and tools if need arises. I am a problem solver and love to take on new challenges.</p>
         </Cell>
-        <Cell col={6}><p style={{color : '#FFFFFF', fontSize : 22,fontFamily: 'Dosis',lineHeight:1.5}}> Problem solver with strong understanding of algorithms, Data Structures & Object oriented design . Proficient with java, javascript and SQL. Experience with building backend server using Spring boot & Nodejs and deploying on AWS, Heroku. Experience with frontend technologies like Reactjs, HTML,CSS. Comfortable developing mobile app both on IOS & android platform. I am good at troubleshooting and debugging</p></Cell>
+        <Cell col={6}><p style={{color : '#FFFFFF', fontSize : 22,fontFamily: 'Dosis',lineHeight:1.5}}>I have over 3 years of experience in Software Development having built multiple projects for learning purpose and during my internships. 
+        I am proficient with Java, Javascript and SQL.
+        I am skilled at Frontend development, mobile development and backend development. 
+        Frameworks like React, Redux, Bootstrap, Nodejs, ExpressJs, Spring Boot, Android & IOS are under my belt. 
+        I have experience with unit testing. I also believe i am good at debugging & troubleshooting.
+        </p></Cell>
     </Grid>
     
-
+    </div>
     <Footer />
 
     
-
+   
       
 </div>
 );

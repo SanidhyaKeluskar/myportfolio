@@ -30,15 +30,16 @@ class Projects extends Component{
                     <CardTitle >Inventory Management System</CardTitle>
                     <CardText className="technologies-known"  >
                     <section>
-                    Build a system wherein admin can track details of current inventory using dashboard<br></br> 
-                    perform operations like update, delete, view item & track location of item.<br></br> 
+                    Build a system wherein admin can track details of inventory using dashboard<br></br> 
+                    Admin can perform operations like update, delete, view item & track location of item.<br></br> 
                     Wrote an algorithm which predicts numbers of days remaining for the stock of every item to get over.<br></br>
                     Integrated Elastic Search for searching items throughout the inventory.<br></br>
                     </section>
                     <section>
-                    <img width="40" src="icons8-java.svg" alt="description dfffof "/> 
-                    <img width="40" src="javascript.svg" alt="description dfffof "/> 
                     <img width="40" src="react.svg" alt="description dfffof "/> 
+                    <img width="40" src="redux.svg" alt="description dfffof "/> 
+                    <img width="40" src="spring.svg" alt="description dfffof "/> 
+                    <img width="40" src="elasticsearch.svg" alt="description dfffof "/> 
                     </section>
                     
                     </CardText>
@@ -62,8 +63,8 @@ class Projects extends Component{
                     </section>
                     <section>
                     <img width="40" src="react.svg" alt="description dfffof "/> 
-                    <img width="40" src="nodejs.svg" alt="description dfffof "/> 
-                    <img width="40" src="mongodb.svg" alt="description dfffof "/> 
+                    <i class="fab fa-node" style={{color:  'black',fontSize: '2.5em'}}/> 
+                    <img width="40" src="mongo.svg" alt="description dfffof "/> 
                     <img width="40" src="docker.svg" alt="description dfffof "/> 
                     </section>
                     
@@ -89,8 +90,9 @@ class Projects extends Component{
                     </section>
                     <section>
                     <img width="40" src="react.svg" alt="description dfffof "/> 
-                    <img width="40" src="nodejs.svg" alt="description dfffof "/> 
+                    <i class="fab fa-node" style={{color:  'black',fontSize: '2.5em'}}/>  
                     <img width="40" src="mysql.svg" alt="description dfffof "/> 
+                    <img width="40" src="redis.svg" alt="description dfffof "/> 
                     
                     </section>
                     
@@ -123,6 +125,7 @@ class Projects extends Component{
                     </section>
                     <section>
                     <img width="40" src="ios.svg" alt="description dfffof "/> 
+                    <img width="40" src="swift.svg" alt="description dfffof "/> 
                     </section>
                     
                     </CardText>
@@ -147,6 +150,7 @@ class Projects extends Component{
                     </section>
                     <section>
                     <img width="40" src="android.svg" alt="description dfffof "/> 
+                    <img width="30" src="kotlin.svg" alt="description dfffof " style={{padding: '5px'}}/> 
                     
                     </section>
                     
@@ -170,9 +174,9 @@ class Projects extends Component{
                             Maintained backend using MS SQL server for managing user data and exercising user authentication.
                     </section>
                     <section>
-                    <img width="40" src="react.svg" alt="description dfffof "/> 
-                    <img width="40" src="nodejs.svg" alt="description dfffof "/> 
-                    <img width="40" src="mysql.svg" alt="description dfffof "/> 
+                
+                    <img width="40" src="php.svg" alt="description dfffof "/> 
+                    <img width="40" src="sqlserver.svg" alt="description dfffof "/> 
                     
                     </section>
                     
@@ -194,38 +198,14 @@ class Projects extends Component{
 
 
             <Grid className="demo-grid-1">
-                <Cell col={4}>
-                    <Card  shadow={5} style={{minWidth: '450', height: '600',margin: 'auto', justifyContent: 'center'}}>
-                    <CardTitle >ChatApp</CardTitle>
-                    <CardText className="technologies-known"  >
-                    <section>
-                            Built a Chat app in which messages are synced across logged-in devices in realtime using Firebase's Realtime Database.<br></br>
-                            Used Firebase Auth to implement user authentication. <br></br>Performed dependency injection using Dagger 2 library.
-
-
-                    </section>
-                    <section>
-                    <img width="40" src="android.svg" alt="description dfffof "/> 
-                    <img width="40" src="icons8-java.svg" alt="description dfffof "/> 
-                    </section>
-                    
-                    </CardText>
-                    
-                    <CardActions border>
-                    <a href="https://github.com/SanidhyaKeluskar/ChatApp" rel="noopener noreferrer" target="_blank">
-                    <Button colored style={{alignContent: 'center'} } >GitHub</Button>
-                    </a>
-                        
-                    </CardActions>
-                    </Card>
-                </Cell>
+                
                 <Cell col={4}>
                     <Card  shadow={5} style={{minWidth: '450', height: '600', margin: 'auto', justifyContent: 'center'}}>
                     <CardTitle >WonderQuiz</CardTitle>
                     <CardText className="technologies-known"  >
                     <section>
-Designed & developed a quiz app based on seven Natural Wonders of the World. <br></br>
-Implemented Scoreboard for score at the end of Quiz <br></br>Also implemented a Progress Bar for answering each question.
+                        Designed & developed a quiz app based on seven Natural Wonders of the World. <br></br>
+                        Implemented Scoreboard for score at the end of Quiz <br></br>Also implemented a Progress Bar for answering each question.
 
 
                     </section>
@@ -245,6 +225,34 @@ Implemented Scoreboard for score at the end of Quiz <br></br>Also implemented a 
                     </CardActions>
                     </Card>
                 </Cell>
+
+                <Cell col={4}>
+                    <Card  shadow={5} style={{minWidth: '450', height: '600',margin: 'auto', justifyContent: 'center'}}>
+                    <CardTitle >ChatApp</CardTitle>
+                    <CardText className="technologies-known"  >
+                    <section>
+                            Built a Chat app in which messages are synced across logged-in devices in realtime using Firebase's Realtime Database.<br></br>
+                            Used Firebase Auth to implement user authentication. <br></br>Performed dependency injection using Dagger 2 library.
+
+
+                    </section>
+                    <section>
+                    <img width="40" src="android.svg" alt="description dfffof "/> 
+                    <img width="40" src="icons8-java.svg" alt="description dfffof "/> 
+                    <img width="40" src="firebase.svg" alt="description dfffof "/> 
+                    </section>
+                    
+                    </CardText>
+                    
+                    <CardActions border>
+                    <a href="https://github.com/SanidhyaKeluskar/ChatApp" rel="noopener noreferrer" target="_blank">
+                    <Button colored style={{alignContent: 'center'} } >GitHub</Button>
+                    </a>
+                        
+                    </CardActions>
+                    </Card>
+                </Cell>
+
                 <Cell col={4}>
                     <Card  shadow={5} style={{minWidth: '450', margin: 'auto', justifyContent: 'center'}}>
                     <CardTitle >WeatherApp</CardTitle>
@@ -270,6 +278,34 @@ Implemented Scoreboard for score at the end of Quiz <br></br>Also implemented a 
                     </CardActions>
                     </Card>
                 </Cell>
+            </Grid>
+
+
+            <Grid className="demo-grid-1">
+                <Cell col={12}>
+                    <Card  shadow={5} style={{minWidth: '450', height: '600',margin: 'auto', justifyContent: 'center'}}>
+                    <CardTitle >Portfolio Website</CardTitle>
+                    <CardText className="technologies-known"  >
+                    <section>
+                            Designed and developed my portfolio website.<br></br> Built the website using ReactJS, React MDL, Reacter-router and deployed the website on AWS
+                    </section>
+                    <section>
+                    <img width="40" src="react.svg" alt="description dfffof "/> 
+                    <i class="fab fa-aws" style={{color:  'black',
+  fontSize: '2.5em'}}/> 
+                    </section>
+                    
+                    </CardText>
+                    
+                    <CardActions border>
+                    <a href="https://github.com/SanidhyaKeluskar/myportfolio" rel="noopener noreferrer" target="_blank">
+                    <Button colored style={{alignContent: 'center'} } >GitHub</Button>
+                    </a>
+                        
+                    </CardActions>
+                    </Card>
+                </Cell>
+                
             </Grid>
 
             <Footer />

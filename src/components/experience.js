@@ -67,9 +67,9 @@ Worked in scrum environment and helped company publish App on Google Play Store.
         }
         else if(this.state.activeTab === 1){
             return(
-                <div style={{minHeight: '100vh'}}>
+                <div style={{}}>
                 
-                <Grid className="demo-grid-1">
+                <Grid className="demo-grid-1" style={{minHeight: '90vh'}}>
         <Cell col={6}><p style={{color : '#FFFFFF', fontSize:'25px', paddingLeft : 8, fontFamily: 'ZCOOL QingKe HuangYou'}}>Trivia Software Pvt LTD (1st Jan 2016- 30th June 2016)</p>
         <p style={{color : '#FFFFFF', fontSize:'22px', paddingLeft : 8,fontFamily: 'ZCOOL QingKe HuangYou'}}>Software Engineering Intern</p>
         <img width="200px" src="mumbai.png" alt="description dfffof " className="avatar2-img"/>
@@ -77,10 +77,10 @@ Worked in scrum environment and helped company publish App on Google Play Store.
         </Cell>
         <Cell col={6}>
         <p style={{color : '#FFFFFF', fontSize:'19px', paddingLeft : 8,fontFamily: 'Dosis', lineHeight:1.5}}>
-Worked on a desktop application. Performed automation by writing SQL trigger which reduced client's data entry task by 70%.<br></br>
-Designed & deployed complex SQL queries for creation of new Reports. Modified stored procedures as per client's requirement.<br></br>
-Performed unit and Regression testing with production data and match existing manual system.<br></br>
-Contributed in group discussions/meetings for valuable changes, resolved defects and learned Agile development process.
+                Worked on a desktop application. Performed automation by writing SQL trigger which reduced client's data entry task by 70%.<br></br>
+                Designed & deployed complex SQL queries for creation of new Reports. Modified stored procedures as per client's requirement.<br></br>
+                Performed unit and Regression testing with production data and match existing manual system.<br></br>
+                Contributed in group discussions/meetings for valuable changes, resolved defects and learned Agile development process.
 
 
                     </p>
@@ -88,7 +88,7 @@ Contributed in group discussions/meetings for valuable changes, resolved defects
         
         </Grid>
                 
-        
+        <Footer />
                     
                 </div>
             )
