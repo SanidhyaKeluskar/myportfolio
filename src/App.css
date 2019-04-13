@@ -31,49 +31,49 @@
 
 .fade-appear,
 .fade-enter {
-    opacity: 0;
-    z-index: 1;
+  opacity: 0;
+  transition: all 2500ms 10s ease-in;
 }
-.fade-appear-active,
-.fade-enter.fade-enter-active {
-    opacity: 1;
-    transition: all 750ms ease-out;
+
+.fade-enter .fade-enter-active {
+  opacity: 0;
+  transition: all 750ms ease-out;
+}
+
+.fade-enter-done {
+  opacity: 1;
+  transition: all 750ms ease-out;
 }
 
 .fade-exit {
-    opacity: 1;
+  opacity: 1;
 }
 
 .fade-exit.fade-exit-active {
-    opacity: 0;
-    transition: all 750ms ease-out;
+  opacity: 0;
+  transition: all 750ms ease-out;
 }
 
-.avatar-img{
-  
+.avatar-img {
   padding-top: 8px;
   padding-left: 8px;
   border-radius: 50%;
   border: 1px solid #ddd;
 }
 
-.avatar2-img{
+.avatar2-img {
   padding-top: 8px;
   padding-left: 8px;
-  border-radius: 50%
+  border-radius: 50%;
 }
 
-.letter{
-  
-  
+.letter {
   text-align: center;
 }
 
-.letter p{
-  font-family: 'Pacifico';
+.letter p {
+  font-family: "Pacifico";
   font-size: 25px;
-  
-
 }
 
 .row {
@@ -82,14 +82,12 @@
 
 .column {
   flex: 50%;
-  
 }
-.grid-to-show-work{
+.grid-to-show-work {
   text-align: center;
-  
 }
 
-.backgroud-of-show-work{
+.backgroud-of-show-work {
   background-color: white;
   width: 75%;
   margin: auto;
@@ -97,122 +95,130 @@
 }
 
 .grid-contact {
-  
   text-align: center;
-
-  
 }
 
-.grid-contact p{
+.grid-contact p {
   font-family: Fredoka One;
   font-size: 22px;
 }
 
-.grid-contact i{
+.grid-contact i {
   color: black;
   font-size: 5em;
-  
 }
 
-.grid-contact-header p{
+.grid-contact-header p {
   text-align: center;
   font-family: Fredoka One;
   font-size: 30px;
 }
 
-.grid-custom{
+.grid-custom {
   display: flex;
 
   justify-content: space-between;
   align-items: center;
 }
 
-.about-grid{
+.about-grid {
   text-align: center;
-
 }
-.about-grid i{
-  color:  whitesmoke;
+.about-grid i {
+  color: whitesmoke;
   font-size: 3em;
 }
 
-.home-styling{
+.my-styling {
+  background: #b33951;
+  transition-property: background;
+  transition-duration: 1s;
+}
+.my-styling:hover {
+  background: grey;
+}
+.my-two-styling {
+  background: #2274a5;
+  transition-property: background;
+  transition-duration: 1s;
+}
+.my-two-styling:hover {
+  background: grey;
+}
+.home-styling {
   padding-top: 8px;
   padding-bottom: 8px;
-  height: 25vh
+  height: 25vh;
 }
-.home-styling p{
+.home-styling p {
   display: flex;
   font-size: 30px;
   padding-top: 25px;
-  color:  whitesmoke;
+  color: whitesmoke;
   justify-content: center;
   align-items: center;
 }
-.home-styling i{
+.home-styling i {
   text-align: center;
-  color:  whitesmoke;
+  color: whitesmoke;
   padding-right: 8px;
   font-size: 4em;
 }
 
-.home-styling-three p{
+.home-styling-three p {
   display: flex;
   font-size: 30px;
   padding-top: 17px;
-  color:  black;
+  color: black;
   justify-content: center;
   align-items: center;
-  padding-left: 20px
+  padding-left: 20px;
 }
-.home-styling-three i{
+.home-styling-three i {
   text-align: center;
-  color:  black;
+  color: black;
   padding-right: 8px;
   font-size: 4em;
 }
 
-.home-styling-four p{
+.home-styling-four p {
   display: flex;
   font-size: 30px;
   padding-top: 17px;
-  color:  black;
+  color: black;
   justify-content: center;
   align-items: center;
-
 }
-.home-styling-four i{
+.home-styling-four i {
   text-align: center;
-  color:  black;
+  color: black;
   padding-right: 8px;
   font-size: 4em;
 }
 
-
-.footer-styling{
+.footer-styling {
   text-align: center;
   padding-top: 8px;
   padding-bottom: 8px;
 }
-.technologies-known{
+.technologies-known {
   display: flex;
-  
+
   justify-content: space-evenly;
   padding-left: 5px;
   padding-right: 5px;
-  
 }
-.card-grid{
+.card-grid {
   display: flex;
 }
 
-.header-for-all i{
-  color:  white;
+.header-for-all i {
+  color: white;
   font-size: 1.5em;
 }
 
-.header-black i{
-  color:  black;
+.header-black i {
+  color: black;
   font-size: 1.5em;
 }
 @keyframes App-logo-spin {
