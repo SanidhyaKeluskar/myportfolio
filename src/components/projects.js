@@ -45,6 +45,53 @@ class Projects extends Component {
               shadow={5}
               style={{
                 minWidth: "450",
+                margin: "auto",
+                justifyContent: "center"
+              }}
+            >
+              <CardTitle>Cinephile Network</CardTitle>
+              <CardText className="technologies-known">
+                <section>
+                  Engineered a full stack social network web app for cinephiles
+                  to connect and discuss movies. Cinephiles can create profiles,
+                  recommend movies, review movies & participate in discussion by
+                  commenting or liking on other cinephile's post.
+                  <br />
+                  Created Backend API's with protected routes using Nodejs,
+                  Express, JWT and Passport.
+                  <br />
+                  Developed front end in ReactJs and performed state management
+                  using Redux.
+                  <br />
+                </section>
+                <section>
+                  <img width="40" src="react.svg" alt="description dfffof " />
+                  <i
+                    class="fab fa-node"
+                    style={{ color: "black", fontSize: "2.5em" }}
+                  />
+                  <img width="40" src="mongo.svg" alt="description dfffof " />
+                </section>
+              </CardText>
+
+              <CardActions border>
+                <a
+                  href="https://github.com/SanidhyaKeluskar/cinephilenetwork"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <Button colored style={{ alignContent: "center" }}>
+                    GitHub
+                  </Button>
+                </a>
+              </CardActions>
+            </Card>
+          </Cell>
+          <Cell col={4}>
+            <Card
+              shadow={5}
+              style={{
+                minWidth: "450",
                 height: "600",
                 margin: "auto",
                 justifyContent: "center"
@@ -54,13 +101,17 @@ class Projects extends Component {
               <CardText className="technologies-known">
                 <section>
                   Build a system wherein admin can track details of inventory
-                  using dashboard<br />
+                  using dashboard
+                  <br />
                   Admin can perform operations like update, delete, view item &
-                  track location of item.<br />
+                  track location of item.
+                  <br />
                   Wrote an algorithm which predicts numbers of days remaining
-                  for the stock of every item to get over.<br />
+                  for the stock of every item to get over.
+                  <br />
                   Integrated Elastic Search for searching items throughout the
-                  inventory.<br />
+                  inventory.
+                  <br />
                 </section>
                 <section>
                   <img width="40" src="react.svg" alt="description dfffof " />
@@ -102,9 +153,11 @@ class Projects extends Component {
                 <section>
                   Devised a full stack AI bot for booking hair salon
                   appointments which understand Natural Language text by using
-                  IBM Watson.<br />
+                  IBM Watson.
+                  <br />
                   Created backend server using Nodejs and MongoDB as database
-                  that stores customer & booking information.<br />
+                  that stores customer & booking information.
+                  <br />
                   Containerized Node and MongoDB using Docker for easy
                   deployment.
                 </section>
@@ -132,51 +185,6 @@ class Projects extends Component {
               </CardActions>
             </Card>
           </Cell>
-          <Cell col={4}>
-            <Card
-              shadow={5}
-              style={{
-                minWidth: "450",
-                margin: "auto",
-                justifyContent: "center"
-              }}
-            >
-              <CardTitle>MoviePedia</CardTitle>
-              <CardText className="technologies-known">
-                <section>
-                  Engineered a full stack web application in which users can
-                  view information related to movies, give & view movie reviews.
-                  <br />
-                  Created Restful backend API using NodeJs & MySQL and deployed
-                  on Heroku to serve data to front-end ReactJS application.
-                  <br />
-                  Leveraged Redis to be used as cache to improve load times of
-                  recently searched queries.<br />
-                </section>
-                <section>
-                  <img width="40" src="react.svg" alt="description dfffof " />
-                  <i
-                    class="fab fa-node"
-                    style={{ color: "black", fontSize: "2.5em" }}
-                  />
-                  <img width="40" src="mysql.svg" alt="description dfffof " />
-                  <img width="40" src="redis.svg" alt="description dfffof " />
-                </section>
-              </CardText>
-
-              <CardActions border>
-                <a
-                  href="https://github.com/SanidhyaKeluskar/RestAPIMovieReview"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <Button colored style={{ alignContent: "center" }}>
-                    GitHub
-                  </Button>
-                </a>
-              </CardActions>
-            </Card>
-          </Cell>
         </Grid>
 
         <Grid className="demo-grid-1">
@@ -194,12 +202,14 @@ class Projects extends Component {
               <CardText className="technologies-known">
                 <section>
                   Developed a beautiful IOS app that assists travelers to
-                  explore landmarks & restaurants near Washington DC.<br />
+                  explore landmarks & restaurants near Washington DC.
+                  <br />
                   Exploiting the Yelp & WMATA API the app enables users to find,
-                  get direction, favorite & share with friends a landmark.<br />
+                  get direction, favorite & share with friends a landmark.
+                  <br />
                   Implemented a feature which allows user to take picture of a
-                  restaurant & the app will show ratings. <br />Performed Unit
-                  Testing.
+                  restaurant & the app will show ratings. <br />
+                  Performed Unit Testing.
                 </section>
                 <section>
                   <img width="40" src="ios.svg" alt="description dfffof " />
@@ -235,10 +245,12 @@ class Projects extends Component {
                 <section>
                   Created an app that helps users find pets for adoption. User
                   can find pets based on user's location, pet's type, breed,
-                  age, etc.<br />
+                  age, etc.
+                  <br />
                   Implemented voice search feature for finding pets, just speak
                   about characteristics of pet and the app will show customized
-                  result.<br />
+                  result.
+                  <br />
                   Used Firebase Database to store information of favorite pets.
                   <br /> Implemented Dual language support (English & Hindi).
                 </section>
@@ -280,7 +292,8 @@ class Projects extends Component {
                 <section>
                   Led a team of 3 to develop a website which has features such
                   as Online assignment submission & Buy/sell used product
-                  portal.<br />
+                  portal.
+                  <br />
                   Implemented 'Buddy System' wherein a Senior is assigned to a
                   Freshman as mentor using K-mean clustering algorithm. <br />
                   Maintained backend using MS SQL server for managing user data
@@ -327,8 +340,8 @@ class Projects extends Component {
                 <section>
                   Designed & developed a quiz app based on seven Natural Wonders
                   of the World. <br />
-                  Implemented Scoreboard for score at the end of Quiz <br />Also
-                  implemented a Progress Bar for answering each question.
+                  Implemented Scoreboard for score at the end of Quiz <br />
+                  Also implemented a Progress Bar for answering each question.
                 </section>
                 <section>
                   <img width="40" src="android.svg" alt="description dfffof " />
@@ -368,7 +381,8 @@ class Projects extends Component {
               <CardText className="technologies-known">
                 <section>
                   Built a Chat app in which messages are synced across logged-in
-                  devices in realtime using Firebase's Realtime Database.<br />
+                  devices in realtime using Firebase's Realtime Database.
+                  <br />
                   Used Firebase Auth to implement user authentication. <br />
                   Performed dependency injection using Dagger 2 library.
                 </section>
@@ -414,7 +428,8 @@ class Projects extends Component {
               <CardText className="technologies-known">
                 <section>
                   Designed & developed a weather app which shows weather data of
-                  user's current location using phone's GPS.<br />
+                  user's current location using phone's GPS.
+                  <br />
                   Used OpenWeatherMap API to fetch weather data.
                 </section>
                 <section>
@@ -456,9 +471,9 @@ class Projects extends Component {
               <CardTitle>Portfolio Website</CardTitle>
               <CardText className="technologies-known">
                 <section>
-                  Designed and developed my portfolio website.<br /> Built the
-                  website using ReactJS, React MDL, Reacter-router and deployed
-                  the website on AWS
+                  Designed and developed my portfolio website.
+                  <br /> Built the website using ReactJS, React MDL,
+                  Reacter-router and deployed the website on AWS
                 </section>
                 <section>
                   <img width="40" src="react.svg" alt="description dfffof " />

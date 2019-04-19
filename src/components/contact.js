@@ -37,7 +37,7 @@ class Contact extends Component {
               <p>Sanidhya Keluskar</p>
               <p>2301 E Street Northwest Washington DC</p>
               <p>svkeluskar@gwu.edu</p>
-              <p>keluskarsanidhya@gmail.com</p>
+              <p>sanidhya.vk@gmail.com</p>
               <p>+1(301)535-8733</p>
               <img width="150" src="barcode.svg" alt="description dfffof " />
             </Cell>

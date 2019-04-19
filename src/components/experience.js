@@ -56,15 +56,16 @@ class Experience extends Component {
                   lineHeight: 1.5
                 }}
               >
-                Participated in complete Software Development Life Cycle (SDLC)
-                of Bankey's Android Application for proper analysis,
-                development, testing, deployment and enhancement of code. <br />
-                Responsible for development of fragments & modules for send
-                money & receive money flow.<br />
-                Implemented find nearest key (Bankey's ATM entity) functionality
-                which expedited 'request Money from Key' process by 30%.<br />
-                Integrated several backend APIs, tested the application on
-                multiple android targets and debugged issues that were found.
+                Contributed to Mobile Application Development Lifecycle for
+                development, testing, deployment and enhancement of code <br />
+                Worked in a team to develop 'send & request money' system by
+                integrating Mango Pay.
+                <br />
+                Added functionality which expedited user's 'request money'
+                process by 20%.
+                <br />
+                Fixed bugs, integrated several backend APIs & tested with Junit
+                and Expresso.
                 <br />
                 Performed research to implement Blockchain on Bankey's existing
                 Model to improve security, reliability & cost of transactions.{" "}
@@ -137,7 +138,8 @@ class Experience extends Component {
                 technology and software development. I worked with him for 3
                 months. He is a true team player and he makes sure that tasks
                 are delivered on time. Sanidhya is a valuable resource that you
-                should keep in your team"<br />
+                should keep in your team"
+                <br />
                 -Moataz Alobaid(Founder of Bankey LLC)
               </p>
             </Cell>
@@ -189,12 +191,14 @@ class Experience extends Component {
                 }}
               >
                 Worked on a desktop application. Performed automation by writing
-                SQL trigger which reduced client's data entry task by 70%.<br />
+                SQL trigger which reduced client's data entry task by 70%.
+                <br />
                 Designed & deployed complex SQL queries for creation of new
                 Reports. Modified stored procedures as per client's requirement.
                 <br />
                 Performed unit and Regression testing with production data and
-                match existing manual system.<br />
+                match existing manual system.
+                <br />
                 Contributed in group discussions/meetings for valuable changes,
                 resolved defects and learned Agile development process.
               </p>

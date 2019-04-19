@@ -163,6 +163,12 @@
   color: whitesmoke;
   padding-right: 8px;
   font-size: 4em;
+  -webkit-transition: -webkit-transform 0.8s ease-in-out;
+  transition: transform 0.8s ease-in-out;
+}
+.home-styling i:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
 }
 
 .home-styling-three p {
@@ -179,6 +185,12 @@
   color: black;
   padding-right: 8px;
   font-size: 4em;
+  -webkit-transition: -webkit-transform 0.8s ease-in-out;
+  transition: transform 0.8s ease-in-out;
+}
+.home-styling-three i:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
 }
 
 .home-styling-four p {
@@ -194,6 +206,12 @@
   color: black;
   padding-right: 8px;
   font-size: 4em;
+  -webkit-transition: -webkit-transform 0.8s ease-in-out;
+  transition: transform 0.8s ease-in-out;
+}
+.home-styling-four i:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
 }
 
 .footer-styling {
