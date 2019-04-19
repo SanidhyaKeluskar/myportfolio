@@ -9,7 +9,10 @@ class Contact extends Component {
   }
   render() {
     return (
-      <div style={{ backgroundColor: "#D0DB97", minHeight: "100vh" }}>
+      <div
+        className="fade-in"
+        style={{ backgroundColor: "#D0DB97", minHeight: "100vh" }}
+      >
         <div
           className="header-black"
           style={{

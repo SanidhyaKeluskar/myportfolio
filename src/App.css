@@ -29,20 +29,21 @@
   right: 0;
 }
 
-.fade-appear,
-.fade-enter {
-  opacity: 0;
-  transition: all 2500ms 10s ease-in;
-}
-
-.fade-enter .fade-enter-active {
-  opacity: 0;
-  transition: all 750ms ease-out;
-}
-
-.fade-enter-done {
+.fade-in {
   opacity: 1;
-  transition: all 750ms ease-out;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 1s;
+}
+
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .fade-exit {

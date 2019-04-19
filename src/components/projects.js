@@ -22,6 +22,7 @@ class Projects extends Component {
         style={{
           backgroundColor: "#E9F1F7"
         }}
+        className="fade-in"
       >
         <div
           className="header-black"

@@ -19,8 +19,13 @@ class Experience extends Component {
     });
     ScrollReveal().reveal(".experience-company-testimonial", {
       duration: 2000,
-      origin: "buttom",
+      origin: "bottom",
       distance: "10px"
+    });
+    ScrollReveal().reveal(".backgroud-of-show-work", {
+      duration: 2000,
+      origin: "bottom",
+      distance: "100px"
     });
   }
 
@@ -33,7 +38,7 @@ class Experience extends Component {
     if (this.state.activeTab === 0) {
       return (
         <div>
-          <Grid className="demo-grid-1">
+          <Grid className="experience-company-name">
             <Cell col={6}>
               <p
                 style={{
@@ -233,7 +238,7 @@ class Experience extends Component {
   render() {
     return (
       <div
-        className="demo-tabs"
+        className="fade-in"
         style={{
           backgroundColor: "#2274A5"
         }}

@@ -14,13 +14,20 @@ class About extends Component {
       distance: "100px"
     });
     ScrollReveal().reveal(".avatar-img", {
-      duration: 2000,
+      duration: 1500,
+      delay: 500,
       origin: "top",
       distance: "300px"
     });
     ScrollReveal().reveal(".about-name-school", {
       duration: 2000,
       origin: "right",
+      distance: "200px"
+    });
+
+    ScrollReveal().reveal(".about-grid-technology", {
+      duration: 1000,
+      delay: 1000,
       distance: "200px"
     });
   }
@@ -30,6 +37,7 @@ class About extends Component {
         style={{
           backgroundColor: "#B33951"
         }}
+        className="fade-in"
       >
         <div
           className="header-for-all"
@@ -76,7 +84,7 @@ class About extends Component {
             </Cell>
           </Grid>
 
-          <Grid className="about-grid">
+          <Grid className="about-grid-technology">
             <Cell col={1}>
               <img width="40" src="icons8-java.svg" alt="description dfffof " />
             </Cell>
@@ -99,7 +107,10 @@ class About extends Component {
               <img width="40" src="mongo.svg" alt="description dfffof " />
             </Cell>
             <Cell col={1}>
-              <i class="fab fa-node" />
+              <i
+                class="fab fa-node"
+                style={{ color: "FFFFFF", fontSize: 40 }}
+              />
             </Cell>
             <Cell col={1}>
               <img width="40" src="spring.svg" alt="description dfffof " />{" "}
@@ -108,7 +119,7 @@ class About extends Component {
               <img width="40" src="docker.svg" alt="description dfffof " />{" "}
             </Cell>
             <Cell col={1}>
-              <i class="fab fa-aws" />{" "}
+              <i class="fab fa-aws" style={{ color: "FFFFFF", fontSize: 40 }} />{" "}
             </Cell>
             <Cell col={1}>
               <img width="40" src="git.svg" alt="description dfffof " />{" "}
