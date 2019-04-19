@@ -3,10 +3,26 @@ import { NavLink } from "react-router-dom";
 import { Grid, Cell } from "react-mdl";
 import Footer from "./footer";
 import me from "../img/me.jpg";
+import ScrollReveal from "scrollreveal";
 
 class About extends Component {
   componentDidMount() {
     document.body.style.backgroundColor = "#B33951";
+    ScrollReveal().reveal(".demo-grid-1", {
+      duration: 2000,
+      origin: "bottom",
+      distance: "100px"
+    });
+    ScrollReveal().reveal(".avatar-img", {
+      duration: 2000,
+      origin: "top",
+      distance: "300px"
+    });
+    ScrollReveal().reveal(".about-name-school", {
+      duration: 2000,
+      origin: "right",
+      distance: "200px"
+    });
   }
   render() {
     return (
@@ -46,7 +62,7 @@ class About extends Component {
                 className="avatar-img"
               />
             </Cell>
-            <Cell col={6}>
+            <Cell col={6} className="about-name-school">
               <h1 style={{ color: "#FFFFFF", fontSize: 35 }}>
                 Hi, i am Sanidhya Keluskar
               </h1>

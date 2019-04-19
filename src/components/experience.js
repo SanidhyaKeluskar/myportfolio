@@ -2,10 +2,26 @@ import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
 import { Tabs, Tab, Grid, Cell } from "react-mdl";
 import Footer from "./footer";
+import ScrollReveal from "scrollreveal";
 
 class Experience extends Component {
   componentDidMount() {
     document.body.style.backgroundColor = "#2274A5";
+    ScrollReveal().reveal(".experience-company-name", {
+      duration: 2000,
+      origin: "bottom",
+      distance: "50px"
+    });
+    ScrollReveal().reveal(".experience-company-description", {
+      duration: 2000,
+      origin: "right",
+      distance: "100px"
+    });
+    ScrollReveal().reveal(".experience-company-testimonial", {
+      duration: 2000,
+      origin: "buttom",
+      distance: "10px"
+    });
   }
 
   constructor(props) {
@@ -26,6 +42,7 @@ class Experience extends Component {
                   paddingLeft: 8,
                   fontFamily: "ZCOOL QingKe HuangYou"
                 }}
+                className="experience-company-name"
               >
                 Bankey LLC (1st June 2018 - 31st August 2018)
               </p>
@@ -55,6 +72,7 @@ class Experience extends Component {
                   fontFamily: "Dosis",
                   lineHeight: 1.5
                 }}
+                className="experience-company-description"
               >
                 Contributed to Mobile Application Development Lifecycle for
                 development, testing, deployment and enhancement of code <br />
@@ -133,6 +151,7 @@ class Experience extends Component {
                   fontFamily: "Dosis",
                   lineHeight: 1.5
                 }}
+                className="experience-company-testimonial"
               >
                 "Sanidhya is great talent who is passionate about emerging
                 technology and software development. I worked with him for 3
